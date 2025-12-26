@@ -1,0 +1,68 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Firebase
+firebase_admin.py
+firebase_config.py
+
+# Build output
+dist/
+build/
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cloudinary
+cloudinary_uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
